@@ -1,0 +1,20 @@
+{
+  "name": "backEndProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend.js"
+  },
+  "keywords": [],
+  "author": "",
+  "proxy": "http://localhost:8080",
+  "license": "ISC",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
